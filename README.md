@@ -87,9 +87,3 @@ n_overlapping_events, overlap_cluster_id`.
 - The calendar is rule-based; special closures not in its list need `extra_holidays`.
 - Split detection is a heuristic safeguard, not a substitute for adjusted prices.
 - Tests use fabricated flat/override prices; no real market data or findings are in this repo.
-
-## Status (Nov 5)
-
-Done: return functions, calendar, timestamp matching, dataset builder, summaries, 75 tests, methodology draft.
-Waiting on data: the real news file and NVDA/SPY bars (needed for the dataset, figures and report).
-Next: the four figures, statistical report, manual validation of sample events against real bars.
